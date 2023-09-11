@@ -1,0 +1,38 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 50px;
+}
+.container .cat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    cursor: pointer;
+}
+.container .cat .img img {
+    max-width: 100%;
+}
+
+.container .cat .img {
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    border-radius: 50%;
+    transition: all 0.5s ease ;
+}
+.container .cat .name {
+    text-transform: uppercase;
+    font-size: 15px;
+    transition: all 0.5s ease ;
+}
+.container .cat:hover .name {
+    color: #3334A8;
+}
+.container .cat:hover .img {
+    transform: rotateZ(-45deg);
+}

@@ -1,0 +1,127 @@
+.contact .all .one {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    margin: auto;
+    gap: 50px;
+    max-width: 1200px;
+    font-family: 'Poppins', sans-serif;
+    text-transform: capitalize;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+.contact .all .one .part {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.contact .all .one .part p {
+    margin: 0;
+}
+.contact .all .one .part p:nth-child(2) {
+    color: #7A7A7A;
+}
+.contact .all .one .part a {
+    text-decoration: none;
+    color: #3334A8;
+    transition: all 0.5s ease;
+    font-weight: bold;
+}
+.contact .all .one .part a:hover {
+    color: #FF1179;
+}
+.contact .all .two {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    gap: 30px;
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    flex-wrap: wrap;
+
+}
+@media (max-width: 946px) {
+    .contact .all .two .part-two {
+        margin-top: 200px;
+    }
+}
+.contact .all .two .part-one {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 400px;
+}
+.contact .all .two .part-one p {
+    text-align: justify;
+}
+.contact .all .two .part-one .img {
+    width: 400px;
+}
+.contact .all .two .part-one .img img {
+    max-width: 100%;
+}
+
+.contact .all .two .part-two {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 500px;
+    background-color: #f2f3f5;
+    padding: 50px;
+    
+}
+.contact .all .two .part-two p {
+    text-transform: capitalize;
+    font-size: 30px;
+    color: #3334A8;
+    margin-bottom: 50px;
+}
+.contact .all .two .part-two form {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 50px;
+}
+.contact .all .two .part-two form .input-01 {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.contact .all .two .part-two form .input-01 input {
+    border: none;
+    border-bottom: solid 1px #3334A8;
+    padding: 10px;
+}
+.contact .all .two .part-two form .input-01 input:focus {
+    outline: none;
+}
+.contact .all .two .part-two form .input-02 input {
+    border: none;
+    border-bottom: solid 1px #3334A8;
+    padding: 10px 233px 10px 10px;
+}
+.contact .all .two .part-two form .input-02 input:focus {
+outline: none;
+}
+.contact .all .two .part-two form .input-03 textarea {
+    border: none;
+    border-bottom: solid 1px #3334A8;
+    padding: 10px 248px 10px 10px;
+}
+.contact .all .two .part-two form .input-03 textarea:focus {
+    outline: none;
+}
+.contact .all .two .part-two form #buttonn  {
+    background-color: #3334A8;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: all 0.5s ease;
+}
+.contact .all .two .part-two form #buttonn:hover  {
+    background-color: #3b3dd2;
+}

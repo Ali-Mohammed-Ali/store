@@ -1,0 +1,41 @@
+.slider-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-height: 600px;
+  overflow: hidden;
+  position: relative;
+}
+
+.slider-image {
+  max-width: 100%;
+  height: auto;
+
+}
+
+.prev-button,
+.next-button {
+  background-color: #3334A8;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  z-index: 1000;
+  transition: all 0.5s ease;
+}
+.prev-button:hover,
+.next-button:hover {
+  background-color: #FF1179;
+  color: #fff;
+
+}
+.next-button {
+    position: absolute;
+    right: 0;
+}
+
+.prev-button {
+  position: absolute;
+  left: 0;
+
+}

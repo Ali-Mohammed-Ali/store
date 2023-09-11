@@ -1,0 +1,22 @@
+.about-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: auto;
+    justify-content: center;
+    margin-top: 50px;
+    max-width: 1200px;
+
+}
+.about-container .about-title h2 {
+    font-family: 'Poppins', sans-serif;
+    text-transform: capitalize;
+    font-size: 60px;
+    margin-bottom: 30px;
+    color: #3334A8;
+}
+.about-container .disc  {
+    font-size: 20px;
+    color: gray;
+    margin-top: 30px;
+}

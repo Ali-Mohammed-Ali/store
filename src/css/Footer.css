@@ -1,0 +1,54 @@
+.footer {
+    background-color:#F7F7FA;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+    padding: 20px 0px;
+    font-family: 'Poppins', sans-serif;
+}
+.footer .right {
+    text-transform: capitalize;
+    text-align: center;
+    
+}
+.footer .pay-gates {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.footer .back-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    text-transform: capitalize;
+    flex-wrap: wrap;
+}
+.footer .back-links a {
+    text-decoration: none;
+    color: #3334A8;
+    transition: all 0.5s ease;
+}
+.footer .back-links a:hover {
+    color: #FF1179;
+}
+.footer .social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.footer .social a {
+    width: 20px;
+}
+.footer .social a  img{
+    max-width: 100%;
+    border-bottom: 3px solid transparent;
+    transition: all 0.5s ease;
+}
+.footer .social a  img:hover{
+    border-bottom: 3px solid #3334A8;
+}

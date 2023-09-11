@@ -1,0 +1,97 @@
+.register-wrapper {
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.register-wrapper .register-form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+    background-color: #F7F7FA;
+    padding: 40px;
+}
+.register-wrapper .register-form div {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 20px;
+}
+.register-wrapper .register-form div label  {
+    color: #3334A8;
+}
+.register-wrapper .register-form div input{
+    padding: 10px 20px;
+    width: 400px;
+}
+
+.register-wrapper .register-form div input:focus {
+    outline: none;
+}
+.register-wrapper .register-form div .submit-register {
+    background-color:#3334A8;
+    color: white;
+    border: none;
+    transition: all 0.5s ease;
+}
+.register-wrapper .register-form div .submit-register:hover {
+    background-color: #FF1179;
+}
+.register-wrapper .register-form p {
+    cursor: pointer;
+    color:#3334A8;
+    transition: all 0.5s ease;
+}
+.register-wrapper .register-form p:hover {
+    color: #FF1179;
+}
+
+
+
+.register-wrapper .login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+    background-color: #F7F7FA;
+    padding: 40px;
+}
+.register-wrapper .login-form div {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 20px;
+}
+.register-wrapper .login-form div label  {
+    color: #3334A8;
+}
+.register-wrapper .login-form div input{
+    padding: 10px 20px;
+    width: 400px;
+}
+
+.register-wrapper .login-form div input:focus {
+    outline: none;
+}
+.register-wrapper .login-form div .login-register {
+    background-color:#3334A8;
+    color: white;
+    border: none;
+    transition: all 0.5s ease;
+}
+.register-wrapper .login-form div .login-register:hover {
+    background-color: #FF1179;
+}
+.register-wrapper .login-form p {
+    cursor: pointer;
+    color:#3334A8;
+    transition: all 0.5s ease;
+}
+.register-wrapper .login-form p:hover {
+    color: #FF1179;
+}

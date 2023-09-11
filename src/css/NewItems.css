@@ -1,0 +1,114 @@
+.new-items {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    gap: 30px;
+    margin-top: 50px;
+    font-family: 'Poppins', sans-serif;
+    flex-wrap: wrap;
+    max-width: 1200px;
+}
+.new-items .item {
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    cursor: pointer;
+    background-color: #F7F7FA;
+    padding: 20px;
+    height: 460px;
+    width: 240px;
+}
+.new-items .item:hover .for-hover {
+    display: flex;   
+}
+.new-items .item .for-hover {
+    position: absolute;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    color: white;
+    font-size: 30px;
+    background-color: rgba(0, 0, 0, 0.227);
+    width: 200px;
+    height: 273px;
+    left: 20px;
+    transition: all 0.5s ease;
+}
+.new-items .item .for-hover .icon {
+    transition: all 0.5s ease;
+}
+.new-items .item .for-hover .icon:hover {
+    color: #FF1179;
+}
+.new-items .item .img {
+    width: 200px;
+}
+.new-items .item .img img {
+    max-width: 100%;
+}
+.new-items .item .details {
+    width: 200px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 10px;
+    text-transform: uppercase;
+}
+.new-items .item .details .name  {
+    font-size: 20px;
+    margin:0;
+    margin-top: 20px;
+}
+
+.new-items .item .details .price {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 0;
+}
+.new-items .item .details .price span {
+    font-size: 30px;
+    font-weight: bold;
+}
+.new-items .item .details .rate-low {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    background-color: red;
+    border-radius: 10px;
+    padding: 0 3px;
+    color: white;
+    width: 80px;
+}
+.new-items .item .details .rate-good {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    background-color: green;
+    border-radius: 10px;
+    padding: 0 3px;
+    color: white;
+    width: 80px;
+}
+.new-items .item .details .rate-mid {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    background-color: orange;
+    border-radius: 10px;
+    padding: 0 3px;
+    color: white;
+    width: 80px;
+}
+.new-items .item .details .rate span {
+    font-weight: bold;
+}
+.new-items .item .details .rate .icon {
+    font-size: 10px;
+}

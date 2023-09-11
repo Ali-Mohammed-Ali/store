@@ -1,0 +1,9 @@
+.home-title h2 {
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 50px;
+    font-size: 40px;
+    color: #FF1179;
+}
